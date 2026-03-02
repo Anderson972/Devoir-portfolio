@@ -1,9 +1,11 @@
-const navbar = ()=>{
+import {NavLink} from "react-router-dom";
+
+const Navbar = ()=>{
     return(
         <div>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#header">JOHN DOE</a>
+                    <a className="navbar-brand" href="/">JOHN DOE</a>
                     <button
                     className="navbar-toggler collapsed"
                     type="button"
@@ -24,13 +26,11 @@ const navbar = ()=>{
             >
                 <div className="bg-dark p-4 text-light">
                     <ul className="navbar-nav justify-content-end">
-                    <li className="nav-item"><a className="nav-link" href="#header">HOME</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#header">SERVICE</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#header">PORTFOLIO</a></li>
-                    <li className="nav-item"><a className="nav-link" href="#header">CONTACT</a></li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#header">MENTION LEGAL</a>
-                    </li>
+                        <li className="nav-item"><NavLink className={({ isActive }) => isActive ? "navlink active" : "navlink"} to="/">Home</NavLink></li>
+                        <li className="nav-item"><NavLink className={({ isActive }) => isActive ? "navlink active" : "navlink"} to="/services">Services</NavLink></li>
+                        <li className="nav-item"><NavLink className={({ isActive }) => isActive ? "navlink active" : "navlink"} to="/portfolio">Portfolio</NavLink></li>
+                        <li className="nav-item"><NavLink className={({ isActive }) => isActive ? "navlink active" : "navlink"} to="/contact">Contact</NavLink></li>
+                        <li className="nav-item"><NavLink className={({ isActive }) => isActive ? "navlink active" : "navlink"} to="/mention-legale">Mention légale</NavLink></li>
                     </ul>
                 </div>
             </div>
@@ -38,4 +38,4 @@ const navbar = ()=>{
     )
 }
 
-export default navbar();
+export default Navbar;
