@@ -100,7 +100,10 @@ form{
 .social:hover{
     opacity: 100%;
 }
-
+.cards{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .card:hover{
     background-color: #efefef;
     box-shadow: 0px 0px 5px 2px #00000030;
@@ -118,7 +121,17 @@ iframe{
     text-decoration: underline;
 }
 
-
+@media (min-width: 768px){
+    .cards{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card{
+        flex: 1;
+        margin: 0 12.5px;
+    }
+}
 @media(min-width:992px){
     .footer{
         flex-direction: row;
