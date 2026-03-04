@@ -9,8 +9,8 @@
 
 }
 /* Utuilisation de "!important" pour prendre la priorité sur le reboot de bootstrap*/
-.App h1, h2{
-    font-weight: 600 !important; 
+h1, h2{
+    font-weight: 600; 
 }
 body a{
     text-decoration: none;
@@ -81,5 +81,15 @@ main{
 .footer{
     display: flex;
     flex-direction: column;
-    
+}
+.container{
+    margin-bottom: 20px;
+}
+.social{
+    padding-right: 10px;
+    display: inline-block;
+    opacity: 25%;
+}
+.social:hover{
+    opacity: 100%;
 }

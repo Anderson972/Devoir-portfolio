@@ -7,6 +7,7 @@ import Portfolio from './pages/portfolio.jsx';
 import Contact from './pages/contact.jsx';
 import Mention from './pages/mention_legal.jsx';
 import Footer from "./footer.jsx";
+import ScrollToTop from './scrollToUp.jsx';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
         <Navbar/>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
