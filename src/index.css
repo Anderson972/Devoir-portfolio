@@ -19,6 +19,7 @@ hr{
 .navlink {
     text-transform: uppercase;
     color: white;
+    margin: 0 15px;
 }
 .navlink:hover{
     text-decoration: underline;
@@ -66,6 +67,7 @@ form{
     border-radius: 10px;
     box-shadow: 0px 5px 10px 10px #ededed;
     text-align: start;
+    max-width: 1200px;
 }
 .main-article h2{
     border-bottom: 3px solid #0d6efd;
@@ -114,4 +116,12 @@ iframe{
 }
 .accordion a {
     text-decoration: underline;
+}
+
+
+@media(min-width:992px){
+    .footer{
+        flex-direction: row;
+    }
+    
 }

@@ -24,8 +24,8 @@ const Home = () => {
                 </div>
             </header>
             <main>
-                <article className="main-article">
-                    <section className="about">
+                <article className="main-article row">
+                    <section className="about col-md-6">
                         <h2>A propos</h2>
                         <img alt="john doe" src='/img/john-doe-about.jpg'></img>
                         <p>
@@ -44,7 +44,7 @@ const Home = () => {
                             enim placeat? Natus, neque at?
                         </p>
                     </section>
-                    <section className="competences">
+                    <section className="competences col-md-6">
                         <h2>Mes compétences</h2>
                         <h3>HTML 5 90%</h3>
                         <div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
