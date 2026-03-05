@@ -122,14 +122,10 @@ iframe{
 }
 
 @media (min-width: 768px){
-    .cards{
-        display: flex;
-        justify-content: center;
-        
-    }
     .card{
         flex: 1;
         margin: 0 12.5px;
+        padding: 0;
     }
     .modal-body{
         align-items: flex-start;
