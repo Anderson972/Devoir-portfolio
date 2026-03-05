@@ -8,8 +8,8 @@ const Services = () => {
                 <h1>Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
                 <hr className="border border-primary border-3 opacity-100 mb-5" style={{width: 30 + '%'}} />
-                <div className="cards">
-                    <div className="card text-center mb-3">
+                <div className="cards row">
+                    <div className="card text-center mb-3 col-md-4">
                         <div className="card-body">
                             <i className="bi bi-brush text-primary" style={{fontSize: 3 +'rem'}}></i>
                             <h2 className="card-title">UX Design</h2>
@@ -18,7 +18,7 @@ const Services = () => {
                                 l'utilisateur au centre des préoccupations. L'objectif est de rendre l'experience utilisateur la plus fuide et agréable possible.</p>
                         </div>
                     </div>
-                    <div className="card text-center mb-3">
+                    <div className="card text-center mb-3 col-md-4">
                         <div className="card-body">
                             <i className="bi bi-code-slash text-primary" style={{fontSize: 3 +'rem'}}></i>
                             <h2 className="card-title">Développement web</h2>
@@ -27,7 +27,7 @@ const Services = () => {
                                 et des frameworks (Bootstrap, React, Angular, etc.).</p>
                         </div>
                     </div>
-                    <div className="card text-center mb-3">
+                    <div className="card text-center mb-3 col-md-4">
                         <div className="card-body">
                             <i className="bi bi-search text-primary" style={{fontSize: 3 +'rem'}}></i>
                             <h2 className="card-title">Référencement</h2>

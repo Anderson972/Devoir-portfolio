@@ -14,11 +14,15 @@ body a{
     text-decoration: none;
 }
 hr{
-    margin: auto;
+    margin: 10px auto;
+}
+.accordion, .main-article, .cards{ 
+    max-width: 1200px;
 }
 .navlink {
     text-transform: uppercase;
     color: white;
+    margin: 0 15px;
 }
 .navlink:hover{
     text-decoration: underline;
@@ -98,7 +102,9 @@ form{
 .social:hover{
     opacity: 100%;
 }
-
+.cards, .accordion{
+    margin: 0 auto;
+}
 .card:hover{
     background-color: #efefef;
     box-shadow: 0px 0px 5px 2px #00000030;
@@ -114,4 +120,27 @@ iframe{
 }
 .accordion a {
     text-decoration: underline;
+}
+
+@media (min-width: 768px){
+    .card{
+        flex: 1;
+        margin: 0 12.5px;
+        padding: 0;
+    }
+    .modal-body{
+        align-items: flex-start;
+    }
+    .modal-info{
+        width: 40%;
+    }
+    .avatar{
+        width: 40%;
+    }
+}
+@media(min-width:992px){
+    .footer{
+        flex-direction: row;
+    }
+    
 }

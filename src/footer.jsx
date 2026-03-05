@@ -17,7 +17,7 @@ const Footer =() => {
                     <a href="tel:1020304050" className="link-light">10 20 30 40 50</a><br />
                     <a href="mailto:john.doe@gmail.com" className="link-light">john.doe@gmail.com</a>
                 </address>
-                <a href="https://api.github.com/users/github-john-doe" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-github"></i></a>
+                <a href="https://github.com/github-john-doe" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-github"></i></a>
                 <a href="https://x.com/" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-twitter"></i></a>
                 <a href="https://www.linkedin.com" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-linkedin"></i></a>
             </div>
