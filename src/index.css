@@ -14,7 +14,7 @@ body a{
     text-decoration: none;
 }
 hr{
-    margin: auto;
+    margin: 10px auto;
 }
 .navlink {
     text-transform: uppercase;
@@ -130,6 +130,15 @@ iframe{
     .card{
         flex: 1;
         margin: 0 12.5px;
+    }
+    .modal-body{
+        align-items: flex-start;
+    }
+    .modal-info{
+        width: 40%;
+    }
+    .avatar{
+        width: 40%;
     }
 }
 @media(min-width:992px){
